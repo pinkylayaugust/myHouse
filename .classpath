@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="WEB-INF/src"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/antlr-2.7.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/commons-chain-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/commons-digester-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/commons-validator-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/oro-2.0.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/struts-core-1.3.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/struts-taglib-1.3.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/struts-tiles-1.3.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/commons-chain-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/jstl.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/mysql-connector-java-5.0.5-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/standard.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/struts-core-1.3.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/struts-taglib-1.3.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/struts-tiles-1.3.10.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/struts-config.xml"/>
+	<classpathentry kind="lib" path="WEB-INF/validation.xml"/>
+	<classpathentry kind="lib" path="WEB-INF/web.xml"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/servlet-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jasper.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jsp-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/el-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/annotations-api.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>

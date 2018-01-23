@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE struts-config PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+"http://struts.apache.org/dtds/struts-config_1_3.dtd">
+<struts-config>
+<form-beans>
+<form-bean name="ad" type="action.adminform"></form-bean>
+</form-beans>
+<global-exceptions>
+</global-exceptions>
+<global-forwards>
+<forward name="welcome" path="/Welcome.do" />
+</global-forwards>
+<action-mappings>
+<action path="/Welcome" forward="/pages/Welcome.jsp" />
+
+<action path="/admi" validate="true" input="/pages/Welcome.jsp" type="action.Adminaction" name="ad" scope="request">
+<!--Where to dispatch -->
+<forward name="success" path="/jsp/admin.jsp" />
+<forward name="error" path="/pages/Welcome.jsp" />
+</action>
+<action path="/logout" validate="true" type="action.logout" name="ad" scope="session">
+<!--Where to dispatch -->
+<forward name="adminlogout" path="/pages/Welcome.jsp" />
+</action>
+
+</action-mappings>
+
+<message-resources parameter="java.MessageResources" />
+<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+<set-property property="pathnames"
+value="/org/apache/struts/validator/validator-rules.xml,
+/WEB-INF/validation.xml" />
+</plug-in>
+</struts-config>

@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+#wrapper
+	{
+	width:1000px;
+	height:auto;		
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+	.header
+	{
+	width:960px;
+	height:200px;	
+	float:left;	
+	background-color:skyblue;
+	}
+	.footer
+	{
+	width:960px;
+	height:700px;
+	float:left;	
+	background-image:url('../image/pink.jpg');
+	}
+	.bottom
+	{
+	width:960px;
+	height:100px;
+	background-color:skyblue;
+	clear:both;
+	}	
+	h4
+	{
+	text-align:right;
+	}
+	.menu
+	{
+	width:960px;
+	height:50px;	
+	text-align:right;
+	background-color:pink;
+	}
+	.clear
+	{
+	clear:both;
+	}
+	
+	
+	
+	
+ 
+	
